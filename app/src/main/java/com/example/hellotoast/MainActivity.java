@@ -8,9 +8,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    Button makeToastButton;
-    TextView counterTextView;
-    Button counterButton;
+    private Button makeToastButton;
+    private TextView counterTextView;
+    private Button counterButton;
     private int number;
 
     @Override
